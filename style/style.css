@@ -19,6 +19,7 @@
     max-width: 1440px;
     height: 698px;
     margin: 0 auto;
+  
 }
 .nav-bar{
     display: flex;
@@ -42,6 +43,7 @@
     border: none;
     border-radius: 10px;
     margin-right: 150px;
+   
 }
 /* Banner section style */
 .banner{
@@ -70,11 +72,16 @@
 }
 /* Action Section */
 .action{
+width: 1140px;
+ margin: auto;
+}
+.action-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 120px;
-    margin: 116px 114px;
+    gap: 120px; 
+    margin-top: 116px;
+    
 }
 .action-title{
     font-family: "Raleway";
@@ -107,17 +114,21 @@
    
    border-radius: 48px;
    width: 403px;
-    height:328px;
+   height:328px;
+   
 }
 /*  Productive Users Section */
 .productive{
-    text-align: center;
-    font-family: "Raleway";
-    margin: 0 auto;
-   background-color: #25243231;
-    width: 1140px;
+width: 1140px;
+ margin: auto;
+}
+.productive-container{
+   text-align: center;
+   font-family: "Raleway";  
+   background-color: #25243231;   
    height: 306px;
    border-radius: 24px;
+   margin-top: 116px;
 
 }
 .productive-title{
@@ -141,4 +152,128 @@
 .centered-sub-title{
     font-size: 20px;
     color: #585858;
+}
+/* Touch Section */
+.user{
+    width: 1140px;
+    margin: auto;
+   
+}
+.user-container{
+    display: flex;
+    gap: 20px;
+}
+
+.user-title{
+    font-family: "Raleway";  
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 137px;
+    
+}
+.card-container{
+    width: 336.67px; 
+    border: 1px solid rgba(78, 78, 78, 0.164);
+    font-family: "Inter"; 
+    border-radius: 24px;
+    margin-top: 50px;
+    padding: 24px;
+
+}
+.user-star{
+    display: flex;    
+    gap: 4px;
+   
+}
+.star-image{
+    width: 20px;
+    height: 20px;
+}
+.user-loved{
+    padding-top: 24px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.user-loved-description{
+    padding-top: 8px;
+    font-size: 16px;
+}
+.user-review{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+   
+    height: 46px;
+    margin-top: 24px;
+}
+.user-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0e0d0dc7;
+    height: 22px;
+}
+.date{
+    font-size: 16px;
+    font-weight: 500;
+    color: #585858;
+    height: 22px;
+}
+/* Touch Section */
+.touch{
+    width: 1140px;
+    margin: auto;
+    border: 1px solid red;
+}
+.touch-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    margin-top: 93px;
+}
+.form{
+    border: 1px solid red;
+}
+.touch-title{
+    font-family: "Raleway";  
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+    text-align: center;
+}
+.label-text{
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 400;
+}
+.input-item{
+    
+    height: 22px;
+    font-size: 20px;
+    padding: 20px 32px;
+    border-radius: 10px;
+}
+.sms{
+  
+    font-size: 20px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    font-family: "Inter";
+}
+.btn-4{
+    font-family: "Raleway";
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;   
+    
 }
