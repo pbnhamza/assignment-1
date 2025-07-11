@@ -99,7 +99,7 @@ width: 1140px;
     padding-bottom: 23px;
 }
 .btn-3{
-     font-family: "Raleway";
+    font-family: "Raleway";
     font-size: 16px;
     color: white;
     font-weight: bold;
@@ -226,45 +226,45 @@ width: 1140px;
 }
 /* Touch Section */
 .touch{
-    width: 1140px;
-    margin: auto;
-    border: 1px solid red;
+    max-width: 1140px;
+    margin:auto;   
+   
 }
 .touch-container{
-    display: flex;
-    justify-content: center;
+    padding-top: 90px;
+    margin: 71px 0;  
+    display: flex;          
+    justify-content: space-between;
     align-items: center;
-    gap: 115px;
-    margin-top: 93px;
+    gap: 90px;   
+   
 }
-.form{
-    border: 1px solid red;
-}
+       
 .touch-title{
-    font-family: "Raleway";  
+    font-style: "Raleway";  
     font-size: 97px;
     font-weight: bold;
-    width: 528px;
-    text-align: center;
-}
-.label-text{
-    font-size: 18px;
-    font-family: "Inter";
-    font-weight: 400;
-}
-.input-item{
     
-    height: 22px;
-    font-size: 20px;
-    padding: 20px 32px;
-    border-radius: 10px;
 }
-.sms{
-  
-    font-size: 20px;
-    padding: 20px 32px;
-    border-radius: 10px;
-    font-family: "Inter";
+
+
+.field-title{
+font-family: "Inter";  
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 10px;
+padding-top: 20px;
+}
+.field-input{
+font-family: "Inter";  
+font-size: 20px;
+font-weight: 600;
+padding: 19px 32px;
+border-radius: 10px;
+border: 1px solid #D6DDED;
+
+width: 495px;
+
 }
 .btn-4{
     font-family: "Raleway";
@@ -275,5 +275,5 @@ width: 1140px;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;   
-    
+    margin-top: 19px; 
 }
