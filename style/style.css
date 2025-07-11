@@ -12,7 +12,23 @@
     margin: 0;
     padding: 0;
 }
-
+/* btn style */
+.btn-1:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.btn-2:hover{
+    cursor: pointer;
+    background-color:green;
+}
+.btn-3:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.btn-4:hover{
+    cursor: pointer;
+    background-color: green;
+}
 /* navbar section sheared */
 .bg-image{
     background-image: url('../assets/Hero-bg.png');
@@ -33,12 +49,13 @@
     color: #4E47FF;
     margin-left: 150px;
 }
+
 .btn-1{
     font-family: "Raleway";
     font-size: 16px;
     color: white;
     font-weight: bold;
-    background-color: #4E47FF;
+    background-color: #4353FF;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
@@ -63,7 +80,7 @@
     font-size: 16px;
     color: white;
     font-weight: bold;
-    background-color: #4E47FF;
+    background-color: #4353FF;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
@@ -103,7 +120,7 @@ width: 1140px;
     font-size: 16px;
     color: white;
     font-weight: bold;
-    background-color: #4E47FF;
+    background-color: #4353FF;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
@@ -147,7 +164,7 @@ width: 1140px;
 .centered-title{
     font-size: 80px;
     font-weight: bold;
-    color: #4E47FF;
+    color: #4353FF;
 }
 .centered-sub-title{
     font-size: 20px;
@@ -271,9 +288,44 @@ width: 495px;
     font-size: 16px;
     color: white;
     font-weight: bold;
-    background-color: #4E47FF;
+    background-color: #4353FF;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;   
     margin-top: 19px; 
+}
+/* footer section */
+.footer-section{
+    max-width: 1140px;
+    margin:auto;   
+}
+.footer-container{
+    margin: 104px 0;
+    text-align: center;   
+}
+.footer-description{
+color: #8987A1;
+font-size: 20px;
+padding: 20px;
+font-family: "Inter"; 
+}
+.log-image{
+    width: 121px;
+    height: 121px;
+    border-radius: 50%;   
+}
+footer ul{
+    display: flex;
+    gap: 48px;
+    justify-content: center;    
+}
+footer ul li { 
+list-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: #353536b4;
+    font: 24px;
+    font-family: "Inter"; 
+    font-weight: 600;
 }
