@@ -303,7 +303,7 @@ width: 495px;
     margin: 104px 0;
     text-align: center;   
 }
-.footer-description{
+.footer-sub-title{
 color: #8987A1;
 font-size: 20px;
 padding: 20px;
@@ -328,4 +328,9 @@ footer a {
     font: 24px;
     font-family: "Inter"; 
     font-weight: 600;
+}
+a:hover{
+    cursor: pointer;
+   color: green;
+   
 }
